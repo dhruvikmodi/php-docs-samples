@@ -1,0 +1,20 @@
+version = 1
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "vue",
+    "react",
+    "angular",
+    "ember",
+    "meteor",
+    "angularjs"
+  ]
